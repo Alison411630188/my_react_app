@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './App.css'
-import 123 from './'
+import pic from './image/吉掰卡哇.jpg'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div id="app">
@@ -10,12 +9,12 @@ function App() {
             <div id="user">
 
                 <div id="avatar">
-                    <img src="./DSC112_PEIYU-e1681431276911.jpg" alt="">
+                    <img src={pic} alt=""/>
                 </div>
 
                 <div id="userInfo">
                     <div id="nameAndTitle">
-                        <p class="title">
+                        <p id="title">
                             卓家全
                         </p>
                         <p>
@@ -34,7 +33,7 @@ function App() {
 
             </div>
             <div id="edu">
-                <p class="title">
+                <p id="title">
                     教育
                 </p>
                 <p>
@@ -44,12 +43,12 @@ function App() {
             </div>
             <div id="about">
                 <div id="contact">
-                    <p class="title">
+                    <p id="title">
                         Contact
                     </p>
                     <div id="contactInfo">
                         <div id="locate">
-                            <p class="title">locate <i class="bi bi-geo-alt"></i></p>
+                            <p id="title">locate <i id="bi bi-geo-alt"></i></p>
                             <p>
                                 卓家全
                             </p>
@@ -61,7 +60,7 @@ function App() {
                             </p>
                         </div>
                         <div id="email">
-                            <p class="title">Email <i class="bi bi-envelope"></i></p>
+                            <p id="title">Email <i id="bi bi-envelope"></i></p>
                             <p>
                                 E-mail: zhuojiaquan520@gmail.com
                             </p>
@@ -70,61 +69,61 @@ function App() {
                 </div>
                 <div id="experiences">
 
-                    <p class="title">
+                    <p id="title">
                         Experience
                     </p>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             田徑隊
                         </p>
                         台中市中正國小
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             班長
                         </p>
                        國小三四年級
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             風紀股長
                         </p>
                         國小五六年級
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             吃肥皂
                         </p>
                         小時候
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             跟同學大打出手
                         </p>
                         小學一年級
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             出國去小琉球
                         </p>
                         小學三四年級
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             出國去泰國
                         </p>
                         國中二年級
                     </div>
 
-                    <div class="experience">
-                        <p class="title">
+                    <div id="experience">
+                        <p id="title">
                             出國去日本
                         </p>
                         大學二年級暑假
